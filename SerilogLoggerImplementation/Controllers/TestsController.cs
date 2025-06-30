@@ -34,14 +34,14 @@ namespace SerilogLoggerImplementation.Controllers
             _logger.LogDebug("LogDebug: Debug information: {@DebugInfo}", debugInfo);
 
             // Log an Information-level message
-            _logger.LogInformation("LogInformation: The LogAllLevels endpoint was reached successfully.");
+            _logger.LogInformation("LogInformation: XXXX - The LogAllLevels endpoint was reached successfully.");
 
             // Log a Warning if a certain condition is met
             bool resourceLimitApproaching = true;
 
             if (resourceLimitApproaching)
             {
-                _logger.LogWarning("LogWarning: Resource usage is nearing the limit.");
+                _logger.LogWarning("LogWarning: MMMM - Resource usage is nearing the limit.");
             }
 
             try
